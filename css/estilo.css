@@ -1,3 +1,4 @@
+@import url("./conteudo.css");
 @import url("./cabecalho.css");
 *
 {
@@ -15,20 +16,4 @@
 
 }
 
-.conteudo{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 800px;
 
-}
-
-.conteudo img{
-    max-width: 100%;
-    display: block;
-}
-
-.conteudo > div{
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 300px;
-}
